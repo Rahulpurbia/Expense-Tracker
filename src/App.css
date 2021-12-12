@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.Wrap {
+  width: 70%;
+  height: 90%;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #cfd6ed;
+  box-shadow: 10px 9px 26px 5px rgba(92, 92, 92, 0.69);
+  -webkit-box-shadow: 10px 9px 26px 5px rgba(92, 92, 92, 0.69);
+  -moz-box-shadow: 10px 9px 26px 5px rgba(92, 92, 92, 0.69);
+}
+h3 {
+  height: 37px;
+  justify-self: flex-start;
+  /* padding-top: 13px; */
+}
+.finalbalance {
+  height: 34px;
+  padding-top: 12px;
+  font-weight: 700;
+  font-size: x-large;
+}
+.income-expense > span:nth-child(1) {
+  /* color: rgb(110, 172, 18); */
+  display: inline-block;
+  width: 49.5%;
+  height: 40px;
+  padding-top: 19px;
+  font-size: x-large;
+  font-weight: 500;
+}
+.income-expense > span:nth-child(2) {
+  /* color: rgb(240, 140, 46); */
+  display: inline-block;
+  width: 49.5%;
+  height: 40px;
+  padding-top: 19px;
+  font-size: x-large;
+  font-weight: 500;
+}
+.transactions {
+  height: 50%;
+  padding-top: 12px;
+  overflow-y: scroll;
+}
+.transaction {
+  /* margin-top: 22px; */
+  background-color: white;
+  margin-top: 4px;
+  box-shadow: 10px 6px 43px 5px rgba(36, 33, 33, 0.69);
+  -webkit-box-shadow: 10px 6px 43px 5px rgba(36, 33, 33, 0.69);
+  -moz-box-shadow: 10px 6px 43px 5px rgba(36, 33, 33, 0.69);
+}
+.transaction > span:nth-child(1) {
+  display: inline-block;
+  height: 26px;
+  padding-top: 9px;
+  width: 78%;
+}
+.transaction > span:nth-child(2) {
+  display: inline-block;
+  height: 26px;
+  padding-top: 9px;
+  width: 13%;
+}
+.deletebtn {
+  width: 8%;
+  /* margin-right: 10px;
+  margin-left: 16px; */
+}
+
+.transaction > .red,
+.transaction > .green {
+  display: inline-block;
+  height: 26px;
+  padding-top: 9px;
+  width: 1%;
+}
+.red {
+  background-color: rgb(230, 113, 67);
+  color: rgb(230, 113, 67);
+}
+.green {
+  background-color: rgb(42, 238, 68);
+  color: rgb(42, 238, 68);
+}
+.addtrans {
+  border-top: 1px solid black;
+}
+.descriptionipt {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px 0;
+  font-size: larger;
+}
+.amountipt {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px 0;
+  font-size: larger;
+}
+input {
+  height: 20px;
+  font-size: large;
+  padding: 2px 10px;
+  width: 50%;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+.addbtn {
+  margin-top: 10px;
+  padding: 7px;
+  width: 90%;
+  font-size: larger;
+  background: rgb(116, 116, 230);
+  border-radius: 7px;
+}
