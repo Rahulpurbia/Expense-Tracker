@@ -2,8 +2,22 @@
   margin: 0;
   padding: 0;
   outline: none;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
 .App {
   height: 100vh;
   width: 100vw;
@@ -14,13 +28,13 @@
   text-align: center;
 }
 .Wrap {
-  width: 70%;
-  height: 90%;
-  border: 2px solid black;
+  width: 80%;
+  height: 70%;
+  border: 2px solid rgb(116, 116, 230);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: #cfd6ed;
+  background-color: #4a4a4b;
   box-shadow: 10px 9px 26px 5px rgba(92, 92, 92, 0.69);
   -webkit-box-shadow: 10px 9px 26px 5px rgba(92, 92, 92, 0.69);
   -moz-box-shadow: 10px 9px 26px 5px rgba(92, 92, 92, 0.69);
@@ -61,7 +75,7 @@ h3 {
 }
 .transaction {
   /* margin-top: 22px; */
-  background-color: white;
+  background-color: rgb(95, 93, 93);
   margin-top: 4px;
   box-shadow: 10px 6px 43px 5px rgba(36, 33, 33, 0.69);
   -webkit-box-shadow: 10px 6px 43px 5px rgba(36, 33, 33, 0.69);
@@ -119,7 +133,7 @@ input {
   height: 20px;
   font-size: large;
   padding: 2px 10px;
-  width: 50%;
+  width: 30%;
   border: none;
   background: transparent;
   border-bottom: 1px solid black;
