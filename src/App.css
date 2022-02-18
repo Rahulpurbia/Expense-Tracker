@@ -28,6 +28,8 @@ input[type="number"] {
   text-align: center;
 }
 .Wrap {
+  position: static;
+  top: 0;
   width: 80%;
   height: 85%;
   border: 2px solid rgb(116, 116, 230);
